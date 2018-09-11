@@ -1,2 +1,17 @@
+p {
+  font-size: 20px;
+  color: Grey;
+  }
+header {
+  background-color: red;
+  }
 
-/* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+
+
+.Grey {
+  color: Grey
+  }
+
+  .large {
+    font-size: 50px;
+    } 
