@@ -1,17 +1,36 @@
-p {
-  font-size: 20px;
-  color: Grey;
-  }
-header {
-  background-color: red;
-  }
+html {
+  background: url(IMG/markus-spiske-1050256-unsplash.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+.bottom {
+    position: fixed;
+    bottom: 0;
+}
 
+ul {
+  list-style-type: none;
+}
 
-.Grey {
-  color: Grey
-  }
+.menue-bar {
+  background-color: rgba(211, 211, 211, 0.6);
+  padding: 20px;
+  margin: 0;
+}
 
-  .large {
-    font-size: 50px;
-    } 
+.link {
+  color: #808080;
+  text-decoration: none;
+}
+
+.header {
+  color: #808080;
+  size: 35px;
+}
+
+.bottomline {
+  color: #808080;
+}
