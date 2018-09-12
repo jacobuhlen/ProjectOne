@@ -21,10 +21,15 @@ ul {
   margin: 0;
 }
 
+.menue-bar li {
+  text-align: center;
+}
+
 .link {
   color: #808080;
   text-decoration: none;
 }
+
 
 .header {
   color: #808080;
@@ -33,31 +38,44 @@ ul {
 
 .bottomline {
   color: #808080;
+  position: static;
+
 }
 
 .container {
     width:250px;
     float: right;
-    text-align: justify;
+    text-align: left;
     padding: 80px;
     margin: 10;
     color: #808080;
-    size: 40px;
+    font-size: 17px;
+line-height: 1.3;
 }
 
-.column {
+.col-8  {
+  width:250px;
+  float: right;
+  text-align: left;
+  padding: 80px;
+  margin: 10;
+  color: #808080;
+  font-size: 25px;
+line-height: 1.5;
+}
+
+.col-9 {
+  width:250px;
   float: left;
-  width: 33.33%;
-  padding: 5px;
-  padding: 20px;
-  margin: 0;
+  text-align: left;
+  padding: 80px;
+  margin: 10;
+  color: #808080;
+  font-size: 25px;
+  line-height: 1.5;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 .row {
   display: flex;
 }
@@ -68,5 +86,5 @@ ul {
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 5%;
 }
