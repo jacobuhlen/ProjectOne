@@ -34,3 +34,13 @@ ul {
 .bottomline {
   color: #808080;
 }
+
+.container {
+    width:250px;
+    float: right;
+    text-align: justify;
+    padding: 80px;
+    margin: 10;
+    color: #808080;
+    size: 40px;
+}
