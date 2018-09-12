@@ -44,3 +44,25 @@ ul {
     color: #808080;
     size: 40px;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  padding: 20px;
+  margin: 0;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
